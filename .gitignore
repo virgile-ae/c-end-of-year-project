@@ -1,0 +1,25 @@
+#ignore pdf files (just keep source files)
+*.pdf
+
+#ignore junk files from latex output
+*.out
+*.log
+*.aux
+*.dvi
+*.ps
+
+#ignore junk files from compiling C code
+*.o
+bin/
+
+#ignore log files
+*.txt
+#keep text files from tests
+!tests/*.txt
+
+#ignore IDE files
+.vscode/
+.idea/
+.zed/
+.clangd
+compile_commands.json

@@ -1,5 +1,11 @@
 # Extension (Battleships)
 
+## About
+
+An online multiplayer implementation of the game Battleships, written in C.
+
+Note: I'm not allowed to publish the assembler and emulator.
+
 ## Init
 
 Clone as normal, then in the extension directory run the following command:
